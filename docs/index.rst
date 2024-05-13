@@ -13,13 +13,7 @@ To get started, explore the :class:`mockup.Circle` class.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Tutorial
-   
-   tutorial/tutorial
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Bistable bias
+   :caption: Bistable bias tutorial
    
    tutorial/bistable_bias_example
 
