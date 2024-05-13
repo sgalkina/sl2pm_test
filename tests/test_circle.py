@@ -1,5 +1,5 @@
 import unittest
-from mockup.mockup import Circle
+from sl2pm.sl2pm import Circle
 
 
 class TestCircle(unittest.TestCase):
