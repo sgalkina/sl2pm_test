@@ -4,7 +4,13 @@
 
 __version__ = (0, 0, 1)
 
-from .sl2pm import *
+from . import bistable_bias
+from . import misc
+from . import models
+from . import pmt
+from . import track_qd
+from . import track_rbc
+from . import track_vessel
 
 # The __all__ variable is a list of variables which are imported
 # when a user does "from example import *"

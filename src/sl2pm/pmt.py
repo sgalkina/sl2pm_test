@@ -1,7 +1,7 @@
 import numpy as np
 from mpmath import fp
 from scipy.special import gamma
-from models import gaussian
+from .models import gaussian
 
 
 def gain(alpha):
