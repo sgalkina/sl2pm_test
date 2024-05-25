@@ -41,7 +41,7 @@ extensions = [
 
 #  https://myst-nb.readthedocs.io/en/latest/computation/execute.html
 nb_execution_mode = "auto"
-nbsphinx_timeout = 210
+nbsphinx_timeout = -1
 myst_enable_extensions = ["dollarmath", "amsmath"]
 
 # Plolty support through require javascript library
