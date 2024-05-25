@@ -3,19 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-The mockup package
+SL2PM
 ==================================
 
-Mockup is a Python package with some simple example code.
-To get started, explore the :class:`mockup.Circle` class.
-
-
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Bistable bias tutorial
-   
-   tutorial/bistable_bias_example
+To get started to SL2PM, explore the tutorials for different usecases
 
 .. toctree::
    :maxdepth: 2
@@ -24,12 +15,34 @@ To get started, explore the :class:`mockup.Circle` class.
    reference/modules
 
 .. toctree::
-   :hidden:
-   :caption: Technical notes
+   :maxdepth: 2
+   :caption: Fitting bistable bias
+   
+   tutorial/bistable_bias/bistable_bias_example
 
-   README.md
+.. toctree::
+   :maxdepth: 2
+   :caption: Calibrating PSF
+   
+   tutorial/capillaries/calibration_example
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Calibrating photo-multiplier tubes
+   
+   tutorial/pmt_calibration/pmt_calibration_example
 
+   .. toctree::
+   :maxdepth: 2
+   :caption: Tracking a single quantum dot
+   
+   tutorial/quantum_dots/qd_example
+
+   .. toctree::
+   :maxdepth: 2
+   :caption: Tracking a single red blood cell
+   
+   tutorial/red_blood_cells/rbc_example
 
 Indices and tables
 ==================
