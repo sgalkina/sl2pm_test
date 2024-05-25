@@ -4,7 +4,7 @@ authors = [
 ]
 description = "Two-photon microscopy particle tracking analysis"
 name = "sl2pm"
-dynamic = ["version"]
+version = "1.0.0"
 readme = "README.md"
 requires-python = ">=3.10"
 # These are keywords
